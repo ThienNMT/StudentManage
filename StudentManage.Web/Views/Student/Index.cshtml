@@ -1,0 +1,58 @@
+﻿@model PagedList.IPagedList<StudentManage.Domain.DTOs.StudentDTO>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Students";
+}
+
+<h2>Students</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.Label("Search NRIC or Name ", htmlAttributes: new { @class = "control-label col-md-2" })
+    <div class="d-flex">
+        @Html.TextBox("Search", ViewBag.CurrentSearch as string, new { @class = "form-control" })
+        <input type="submit" value="Search" class="btn btn-outline-primary ms-5" />
+    </div>
+}
+
+<table class="table">
+    <tr>
+        <th>S/N</th>
+        <th>NRIC</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>NO. Of Subjects</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.ActionLink(item.NRIC, "Edit", new { id = item.Id })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumberOfSubjects)
+            </td>
+            </tr>
+    }
+</table>
+
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page, currentSearch = ViewBag.CurrentSearch }))

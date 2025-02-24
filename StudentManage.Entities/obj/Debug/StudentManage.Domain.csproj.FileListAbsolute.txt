@@ -1,0 +1,14 @@
+T:\DEV\StudentManage\StudentRegistration\StudentManage.Entities\bin\Debug\StudentManage.Entities.dll
+T:\DEV\StudentManage\StudentRegistration\StudentManage.Entities\bin\Debug\StudentManage.Entities.pdb
+T:\DEV\StudentManage\StudentRegistration\StudentManage.Entities\bin\Debug\AutoMapper.dll
+T:\DEV\StudentManage\StudentRegistration\StudentManage.Entities\bin\Debug\AutoMapper.xml
+T:\DEV\StudentManage\StudentRegistration\StudentManage.Entities\obj\Debug\StudentManage.Domain.csproj.CopyComplete
+T:\DEV\StudentManage\StudentRegistration\StudentManage.Entities\obj\Debug\StudentManage.Entities.dll
+T:\DEV\StudentManage\StudentRegistration\StudentManage.Entities\obj\Debug\StudentManage.Entities.pdb
+T:\DEV\StudentManage\StudentManage\StudentManage.Entities\bin\Debug\StudentManage.Entities.dll
+T:\DEV\StudentManage\StudentManage\StudentManage.Entities\bin\Debug\StudentManage.Entities.pdb
+T:\DEV\StudentManage\StudentManage\StudentManage.Entities\bin\Debug\AutoMapper.dll
+T:\DEV\StudentManage\StudentManage\StudentManage.Entities\bin\Debug\AutoMapper.xml
+T:\DEV\StudentManage\StudentManage\StudentManage.Entities\obj\Debug\StudentManage.Domain.csproj.CopyComplete
+T:\DEV\StudentManage\StudentManage\StudentManage.Entities\obj\Debug\StudentManage.Entities.dll
+T:\DEV\StudentManage\StudentManage\StudentManage.Entities\obj\Debug\StudentManage.Entities.pdb

@@ -1,0 +1,8 @@
+2025-02-25 05:30:29.672 +07:00 [INF] Application_Start
+2025-02-25 05:30:32.635 +07:00 [INF] StudentController_Index_Search: _Page: 
+2025-02-25 05:30:39.538 +07:00 [INF] StudentController_Edit_StudentId: 2
+2025-02-25 05:30:41.350 +07:00 [INF] StudentController_Index_Search: _Page: 
+2025-02-25 05:30:43.267 +07:00 [INF] StudentController_Create
+2025-02-25 05:30:46.634 +07:00 [INF] StudentController_Index_Search: _Page: 
+2025-02-25 05:30:48.361 +07:00 [INF] StudentController_Index_Search: _Page: 
+2025-02-25 05:30:49.128 +07:00 [INF] StudentController_Create
